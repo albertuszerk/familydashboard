@@ -18,8 +18,7 @@ Willkommen beim **familydashboard**! Dieses Projekt hilft Eltern dabei, die digi
 
 ### 1. System-Basis & Software-Installation
 Installiere die Kern-Komponenten auf dem Zentral-PC (Zorin OS):
-```bash
-sudo apt update && sudo apt install -y scrcpy adb xtightvncviewer wmctrl tailscale remmina```
+```sudo apt update && sudo apt install -y scrcpy adb xtightvncviewer wmctrl tailscale remmina```
 
 ### 2. Sicherheits-Infrastruktur (VPN & DynDNS)
 * **Verbindung:** Ein Site-to-Site VPN koppelt die Router direkt, sodass ADB (5555) und VNC (5900) nur intern erreichbar sind.
@@ -31,8 +30,7 @@ sudo apt update && sudo apt install -y scrcpy adb xtightvncviewer wmctrl tailsca
 
 ### 4. Startprogramme & Helfer (Autostart)
 Um das Netzwerk-Fragezeichen in Zorin OS zu beheben, erstelle diesen Autostart-Eintrag:
-```bash
-cat <<EOF > ~/.config/autostart/vpn-heiler.desktop
+```cat <<EOF > ~/.config/autostart/vpn-heiler.desktop
 [Desktop Entry]
 Type=Application
 Name=VPN Auto-Heiler
