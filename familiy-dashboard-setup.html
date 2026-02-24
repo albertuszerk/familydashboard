@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Familien-Zentralmonitor: Das Master-Handbuch (v3.0)</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 20px auto; padding: 20px; background-color: #f4f7f6; }
+        .paper { background: white; padding: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-radius: 12px; border-top: 10px solid #2980b9; }
+        h1 { color: #2c3e50; text-align: center; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+        h2 { color: #d35400; border-left: 5px solid #d35400; padding-left: 15px; margin-top: 40px; background: #fef5ef; padding: 8px 15px; }
+        h3 { color: #27ae60; margin-top: 25px; border-bottom: 1px solid #eee; }
+        .source-box { background: #eef7fa; border: 1px solid #b2d7e5; padding: 20px; border-radius: 8px; margin: 15px 0; }
+        .tool-box { background: #fff9db; border: 1px solid #fab005; padding: 15px; border-radius: 8px; margin: 15px 0; border-left: 5px solid #fab005; }
+        .lab-success { background: #f0fff4; border: 1px solid #c6f6d5; padding: 15px; border-radius: 8px; margin: 15px 0; border-left: 5px solid #27ae60; }
+        pre { background: #2c3e50; color: #ecf0f1; padding: 15px; border-radius: 8px; overflow-x: auto; font-size: 0.9em; }
+        code { background: #f1f1f1; color: #c0392b; padding: 2px 4px; border-radius: 4px; }
+        .footer { margin-top: 50px; text-align: center; font-size: 0.85em; color: #7f8c8d; border-top: 1px solid #eee; padding-top: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="paper">
+    <h1>Projekt: Familien-Zentralmonitor (16 Screens)</h1>
+    <p style="text-align: center; font-weight: bold;">Vollumfängliche Dokumentation: Setup, Sicherheit, Automation & Erziehung</p>
+
+    <h2>1. System-Basis & Software-Installation</h2>
+    <div class="source-box">
+        <h3>Zentral-PC (Zorin OS)</h3>
+        <p>Installation der Kern-Komponenten für Dashboard und Remote-Zugriff:</p>
+        <code>sudo apt update && sudo apt install -y scrcpy adb xtightvncviewer wmctrl tailscale remmina</code>
+    </div>
+    <div class="lab-success">
+        <h3>Hardware-Integration: Drucker (Brother HL-5450DN)</h3>
+        <p>Erfolgreiche Einbindung über PCL6-Treiber:</p>
+        <code>sudo lpadmin -p Brother_HL5450DN_Final -E -v socket://192.168.5.119 -P /usr/share/ppd/cupsfilters/pxlmono.ppd</code>
+    </div>
+
+    <h2>2. Sicherheits-Infrastruktur (VPN & DynDNS)</h2>
+    <p>Das Fundament für einen sicheren Betrieb ohne offene Ports im Internet:</p>
+    <ul>
+        <li><strong>VPN & DynDNS:</strong> Nutzung von MyFRITZ/DuckDNS für feste Erreichbarkeit. Ein Site-to-Site VPN koppelt die Router direkt, sodass ADB (5555) und VNC (5900) nur intern erreichbar sind.</li>
+        <li><strong>Wireless Debugging:</strong> Am Handy einschalten ("Immer zulassen"). Einmalige Initialisierung per USB: <code>adb tcpip 5555</code>.</li>
+    </ul>
+
+    <h2>3. Remote-Desktop: Das VNC-Setup</h2>
+    <h3>VNC-Server (Kinder-Laptops)</h3>
+    <p>Installation und Konfiguration auf den Endgeräten:</p>
+    <pre>sudo apt install x11vnc
+vncpasswd  # Passwort vergeben
+# Autostart-Befehl für den Laptop:
+x11vnc -forever -usepw -display :0</pre>
+    <h3>VNC-Client (Zentral-PC)</h3>
+    <p>Anzeige der Laptops via <code>Remmina</code> (VNC-Profil) oder direkt über den <code>xtightvncviewer</code> innerhalb des Dashboard-Grids.</p>
+
+    <h2>4. Startprogramme & Administrative Helfer (Autostart)</h2>
+    
+    <div class="tool-box">
+        <strong>VPN-Auto-Heiler: Fixes WLAN/VPN Question Mark</strong><br>
+        Löst das Netzwerk-Fragezeichen-Problem in Zorin OS durch Reset der Wireguard-Verbindung.
+        <pre># Autostart-Befehl am PC:
+cat <<EOF > ~/.config/autostart/vpn-heiler.desktop
+[Desktop Entry]
+Type=Application
+Name=VPN Auto-Heiler
+Exec=bash -c "sleep 20 && nmcli connection down wg0; sleep 2 && nmcli connection up wg0"
+X-GNOME-Autostart-enabled=true
+EOF</pre>
+    </div>
+
+    <div class="tool-box">
+        <strong>usb-auto-adb.sh (ADB Auto Tankstelle)</strong><br>
+        Zweck: Erkennt Handys per USB-Kabel automatisch und schaltet sofort den Port 5555 für den drahtlosen ADB-Modus frei.
+    </div>
+
+    <h2>5. Dashboard-Automation & Szenario 10</h2>
+    <p>Verifizierte Steuerung für den Trio-Mix (1 Laptop, 2 Handys) via <code>family-dashboard.sh</code>:</p>
+    <pre>
+# Auszug der Fenster-Platzierung:
+[ -n "$WIDL" ] && wmctrl -i -r "$WIDL" -e 0,0,0,1140,560  # Laptop Fokus
+[ -n "$WIDV" ] && wmctrl -i -r "$WIDV" -e 0,1140,0,540,1080 # Handy Rechts
+[ -n "$WIDH" ] && wmctrl -i -r "$WIDH" -e 0,0,596,1140,416 # Handy Unten Links</pre>
+
+    <div class="lab-success">
+        <strong>Zentrale Layout-Regeln:</strong><br>
+        • <strong>101-Regel:</strong> Fenster bei Rückkehr aus Parkplatz immer auf <code>y=101</code> setzen.<br>
+        • <strong>Parkplatz:</strong> Inaktive Fenster (300x300) kaskadieren ab <code>X=100, Y=150</code>.
+    </div>
+
+    <h2>6. Krisenvorsorge & Erziehung (Service Desk)</h2>
+    <h3>Verhalten bei Stromausfall</h3>
+    <ul>
+        <li><strong>Hardware:</strong> BIOS-Einstellung "Restore on AC Power Loss" auf <strong>[Power On]</strong>.</li>
+        <li><strong>Autostart:</strong> Alle unter Punkt 4 genannten Skripte stellen die Arbeitsfähigkeit sofort wieder her.</li>
+    </ul>
+    <h3>Sanktionen: Der "Service Desk"</h3>
+    <p>Technische Manipulation oder Verstösse führen zur Abgabe des Geräts am physischen Service-Desk (Schublade).</p>
+
+    <div class="footer">
+        © 2026 Familien-IT Projekt. Alle "ss" gemäss Benutzervorgabe. <br>
+        Vollständige Zusammenführung aus v1.0, Netzwerk-Fixes und Lab-Automation.
+    </div>
+</div>
+
+</body>
+</html>
