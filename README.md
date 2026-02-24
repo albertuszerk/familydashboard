@@ -18,7 +18,9 @@ Willkommen beim **familydashboard**! Dieses Projekt hilft Eltern dabei, die digi
 
 ### 1. System-Basis & Software-Installation
 Installiere die Kern-Komponenten auf dem Zentral-PC (Zorin OS):
-```sudo apt update && sudo apt install -y scrcpy adb xtightvncviewer wmctrl tailscale remmina```
+```
+sudo apt update && sudo apt install -y scrcpy adb xtightvncviewer wmctrl tailscale remmina
+```
 
 ### 2. Sicherheits-Infrastruktur (VPN & DynDNS)
 * **Verbindung:** Ein Site-to-Site VPN koppelt die Router direkt, sodass ADB (5555) und VNC (5900) nur intern erreichbar sind.
@@ -30,13 +32,15 @@ Installiere die Kern-Komponenten auf dem Zentral-PC (Zorin OS):
 
 ### 4. Startprogramme & Helfer (Autostart)
 Um das Netzwerk-Fragezeichen in Zorin OS zu beheben, erstelle diesen Autostart-Eintrag:
-```cat <<EOF > ~/.config/autostart/vpn-heiler.desktop
+```
+cat < ~/.config/autostart/vpn-heiler.desktop
 [Desktop Entry]
 Type=Application
 Name=VPN Auto-Heiler
 Exec=bash -c "sleep 20 && nmcli connection down wg0; sleep 2 && nmcli connection up wg0"
 X-GNOME-Autostart-enabled=true
-EOF```
+EOF
+```
 
 ## ⚖️ Die Goldenen Regeln des Systems
 * **Die 101-Regel:** Fenster kehren aus dem Parkplatz immer auf die Position `y=101` zurueck, um die Systemleisten zu schuetzen.
@@ -45,7 +49,7 @@ EOF```
 * **Der Service-Desk:** Technische Manipulation fuehrt zur Abgabe des Geraets in der physischen Schublade.
 
 ## 🖼️ Printscreens
-Hier findest du die optische Uebersicht, wie das Dashboard die Geraete anordnet:
+Optische Uebersicht, wie das Dashboard die Geraete anordnet:
 
 ![Die 9 Basis Szenarien](./docs/images/aufteilung2.jpg)
 *Bild 1: Uebersicht der 9 Basis-Szenarien und Zyklen.*
@@ -60,7 +64,7 @@ Hier findest du die optische Uebersicht, wie das Dashboard die Geraete anordnet:
 *Bild 4: Platzhalter fuer das physische Monitor-Setup.*
 
 ![Service Desk](./docs/images/placeholder.png)
-*Bild 5: Platzhalter fuer das Sanktions-System (Schublade).*
+*Bild 5: Platzhalter fuer den Service-Desk (Schublade).*
 
 ![Netzwerk Struktur](./docs/images/placeholder.png)
 *Bild 6: Platzhalter fuer das VPN-Verbindungsschema.*
