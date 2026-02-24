@@ -70,4 +70,21 @@ Optische Uebersicht, wie das Dashboard die Geraete anordnet:
 *Bild 6: Platzhalter fuer das VPN-Verbindungsschema.*
 
 ---
+
+## 🧠 Die psychologische Seite (Kreative Pause)
+Hinter der Technik (VPN, ADB und Automation) steht die Dynamik des Familienlebens. Um diese subtilen Aspekte – von der Last der Verantwortung bis zum Drang nach Freiheit – greifbar zu machen, dienen diese "Schlumpf-Prompts" als visuelle Metaphern.
+
+### 1. Das allwissende Auge (Der mentale Druck)
+**Kontext:** Das Gefuehl der Kinder, dass jede App-Oeffnung am Handy registriert wird.
+
+### 2. Die erzwungene Harmonie (Der Schein trügt)
+**Kontext:** Wenn das Dashboard nur „gruene“ Zustaende zeigt, die Stimmung aber angespannt ist.
+
+### 3. Die Last der Allwissenheit (Papas Buerde)
+**Kontext:** Die Verantwortung des Vaters, der nachts die VPN-Verbindungen und Logs prueft.
+
+### 4. Das analoge Schlupfloch (Die kleine Rebellion)
+**Kontext:** Die Flucht vor dem "Service-Desk" und der digitalen Erfassung.
+
+---
 *Projekt-Stand: Februar 2026 – Erstellt fuer maximale Stabilitaet und Familien-Frieden.*
