@@ -1,0 +1,32 @@
+Entwickle einen Familien Monitor mit allen ihren Umsystemen.
+
+ROLLE: Senior Software-Ingenieur fuer Linux-Automatisierung.
+ZIEL: Erstelle ein Dashboard-System unter Zorin OS zur Ueberwachung von bis zu 16 Endgeraeten.
+
+1. DER WERKZEUGKASTEN (TOOLS UND EINSATZZWECK)
+Nutze folgende Werkzeuge fuer die Workflows:
+-- scrcpy: Spiegelung der Handy-Displays (Android)
+-- adb: Steuerung und Wireless-Initialisierung auf Port 5555
+-- xtightvncviewer / remmina: VNC-Clients fuer das Laptop-Monitoring
+-- wmctrl: Fenster-Manipulation wie Groesse, Position und Always-on-top
+-- tailscale: Absicherung der Site-to-Site VPN-Infrastruktur
+
+2. DIE LOGIK DER 9 PRODUKTIVEN BASIS-SZENARIEN
+Ordne die Fenster (IDs via wmctrl) nach folgendem Index an:
+-- Szenario 1: Laptop Fokus (1668x800)
+-- Szenario 2: Handy-Einmitten (Zentral)
+-- Szenario 3: Duo-Split Handy (840px Breite)
+-- Szenario 4: Trio-Split Handy (560px Breite)
+-- Szenario 5: Quad-Tablet (Gitter-Layout)
+-- Szenario 6 bis 9: Mischbetrieb und Multi-Grids (Laptop plus Handies)
+
+3. ADMINISTRATIVE WORKFLOWS UND HEILER
+-- VPN-Auto-Heiler: Behebt Zorin-Netzwerk-Haenger via nmcli connection down/up wg0 nach 20s Boot-Zeit
+-- ADB-Tankstelle: Fuehrt automatisch adb tcpip 5555 bei USB-Erkennung aus
+-- Praezisions-Positionierung:
+   * 101-Regel (Laptop/Remmina): Diese Fenster starten zwingend bei y=101
+   * Handy-Ausrichtung: Handys im Mischbetrieb ebenfalls an der 101-Linie ausrichten
+-- Parkplatz-Kaskade: Inaktive Fenster (300x300) kaskadieren ab X=100, Y=150
+
+4. DESIGN-VORGABE
+-- Nutze in allen Ausgaben und Skripten konsequent ss statt sz (scharfes s)
