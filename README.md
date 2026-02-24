@@ -1,4 +1,4 @@
-# Das Digitale Familien-Cockpit
+# X-Family Dashboard, v0.9 (beta)
 ### Alle Bildschirme von Handys und Laptops sicher im Blick – auf einem Monitor.
 
 Dieses Projekt hilft Eltern dabei, die digitale Übersicht im Haushalt zu behalten. Es vereint die Bildschirme von bis zu 8 Handys und 8 Laptops auf einem zentralen Monitor, damit nichts im Verborgenen bleibt.
