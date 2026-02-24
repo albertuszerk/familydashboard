@@ -51,23 +51,23 @@ EOF
 ## 🖼️ Printscreens
 Optische Uebersicht, wie das Dashboard die Geraete anordnet:
 
-![Die 9 Basis Szenarien](./docs/images/aufteilung2.jpg)
-*Bild 1: Uebersicht der 9 Basis-Szenarien und Zyklen.*
+![Die Basis Szenarien](./images/bild_11.jpg)
+*Bild 1: Uebersicht der Basis-Szenarien und Zyklen.*
 
-![Cockpit Ansicht 1](./docs/images/placeholder.png)
-*Bild 2: Platzhalter fuer Live-Ansicht Laptop-Fokus.*
+![Cockpit Ansicht](./images/bild_07.jpg)
+*Bild 2: Der Familien Monitor im Einsatz. Eltern sehen in Echtzeit, was die Kinder auf ihren Geräten machen.*
 
-![Cockpit Ansicht 2](./docs/images/placeholder.png)
-*Bild 3: Platzhalter fuer Handy-Monitoring.*
+![ADB-Tankstelle](./images/bild_10.jpg)
+*Bild 3: Neue Handies (od. Handy nach Reboot) einmal ans USB Kabel anschliessen, und das Gerät wird vom System erkannt.*
 
-![Hardware Setup](./docs/images/placeholder.png)
-*Bild 4: Platzhalter fuer das physische Monitor-Setup.*
+![Hardware Setup](./images/bild_04.jpg)
+*Bild 4: Smurpf-Net.*
 
-![Service Desk](./docs/images/placeholder.png)
-*Bild 5: Platzhalter fuer den Service-Desk (Schublade).*
+![Service Desk](./images/bild_06.jpg)
+*Bild 5: Der Service-Desk (Schublade).*
 
-![Netzwerk Struktur](./docs/images/placeholder.png)
-*Bild 6: Platzhalter fuer das VPN-Verbindungsschema.*
+![Netzwerk Struktur](./images/bild_05.jpg)
+*Bild 6: Ueber VPN werden Laptop/Handy auf dem Familien Monitor sichtbar.*
 
 ---
 
