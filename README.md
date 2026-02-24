@@ -1,7 +1,7 @@
 # Das Digitale Familien-Cockpit
 ### Alle Bildschirme von Handys und Laptops sicher im Blick – auf einem Monitor.
 
-Willkommen beim **familydashboard**! Dieses Projekt hilft Eltern dabei, die digitale Übersicht im Haushalt zu behalten. Es vereint die Bildschirme von bis zu 8 Handys und 8 Laptops auf einem zentralen Monitor, damit nichts im Verborgenen bleibt.
+Dieses Projekt hilft Eltern dabei, die digitale Übersicht im Haushalt zu behalten. Es vereint die Bildschirme von bis zu 8 Handys und 8 Laptops auf einem zentralen Monitor, damit nichts im Verborgenen bleibt.
 
 ## 📋 Was dieses Cockpit für dich tut
 * **Alles auf einem Blick:** Zeigt alle aktiven Geräte gleichzeitig in einer geordneten Ansicht an.
