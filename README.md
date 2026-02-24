@@ -86,5 +86,8 @@ Hinter der Technik (VPN, ADB und Automation) steht die Dynamik des Familienleben
 ### 4. Das analoge Schlupfloch (Die kleine Rebellion)
 **Kontext:** Die Flucht vor dem "Service-Desk" und der digitalen Erfassung.
 
+## Tags
+#familienzeit #lebenmitkindern #medienkompetenz #bildschirmzeit #kinderzimmer #parentalcontrol #childsafety #familyprotection #opensource #internetsafety #pclockdown #medienerziehung #kinderschutz #sicheresinternet #itsecurity #jugendschutz #safeinternet #cybersecurityfuerfamilie #digitaleerziehung #sicherimnetz #digitaleverantwortung #kindersicherheit #privatsphaereschutz #elternverantwortung #datensicherheit #kindundinternet #filterfuerkinder #smartparenting #digitalekindersicherung #digitalgeniessen
+
 ---
 *Projekt-Stand: Februar 2026 – Erstellt fuer maximale Stabilitaet und Familien-Frieden.*
