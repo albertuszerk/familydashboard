@@ -35,7 +35,7 @@
 | **Sichtschutz** | Schutz der Privatsphäre |
 | **Vogelhaus** | Tarnung & Nistplatz |
 | **Wetter- & Regenschutz** | Abtropfkante |
-| **MeshCore-Integration** | Wettergeschützte Aufnahme eines solarunterstützten Funkknotens |
+| **Meshcore-Integration** | Wettergeschützte Aufnahme eines solarunterstützten Funkknotens ([Meshcore](https://www.meshcore.io)) |
 
 ---
 
@@ -64,7 +64,8 @@ Die beiden Schubladen sind passgenau für gängige Smartphones gefräst.
 
 Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschädigungsfrei auf dem vorhandenen Handlauf des Balkongeländers.
 
-* **3D-Modell (SketchUp):** [3D-Plan-Balkon-Durchreiche-v1.0.zip herunterladen](cad/3D-Plan-Balkon-Durchreiche-v1.0.zip)
+* **3D-Modell (SketchUp Archiv):** [Direkter Download: 3D-Plan-Balkon-Durchreiche-v1.0.zip](https://raw.githubusercontent.com/albertuszerk/familydashboard/main/hardware-service-desk/cad/3D-Plan-Balkon-Durchreiche-v1.0.zip)
+* **Integritätsprüfung (SHA-256):** `76f2eb862b67277f1c25b4c770af4d649f2860217d21bb4c999bf9bb0b90206e`
 * **Laser-Montageblech (Onshape):** [Onshape Montageblech CAD-Modell](https://cad.onshape.com/documents/048f00407a617d19f4a008ea/w/fefb94ada2602383629b39b9/e/5afe78f2b9829ff1aa034ac5?renderMode=0)
 
 <p align="center">
@@ -75,14 +76,14 @@ Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschä
 
 ---
 
-## 6. Witterungsschutz & MeshCore-Knoten
+## 6. Witterungsschutz & Meshcore-Knoten
 
 * **Regenabweiser:** Durch gezielte Abtropfleisten bleibt die Lade- und Entladezone bei Regenfall trocken.
-* **MeshCore-Node:** Das Vogelhaus dient gleichzeitig als unauffälliges Gehäuse für einen autarken LoRa-/MeshCore-Repeater.
+* **Meshcore-Node:** Das Vogelhaus dient gleichzeitig als unauffälliges Gehäuse für einen autarken LoRa-/[Meshcore](https://www.meshcore.io)-Repeater.
 
 <p align="center">
   <img src="images/Regenabweiser1.jpg" alt="Regenabweiser" width="48%" />
-  <img src="images/Vogelhaus-Wartungsposition5-mit-MeshcoreNode.jpg" alt="MeshCore-Node im Vogelhaus" width="48%" />
+  <img src="images/Vogelhaus-Wartungsposition5-mit-MeshcoreNode.jpg" alt="Meshcore-Node im Vogelhaus" width="48%" />
 </p>
 
 ---
@@ -109,13 +110,13 @@ Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschä
 | ![Sichtschutz geschlossen 1](images/Durchreiche-Sichtschutz-geschlossen1.jpg)<br><sub>Sichtschutz geschlossen 1</sub> | ![Sichtschutz geschlossen 2](images/Durchreiche-Sichtschutz-geschlossen2.jpg)<br><sub>Sichtschutz geschlossen 2</sub> | ![Sichtschutz geschlossen 3](images/Durchreiche-Sichtschutz-geschlossen3.jpg)<br><sub>Sichtschutz geschlossen 3</sub> |
 | ![Sichtschutz geschlossen 4](images/Durchreiche-Sichtschutz-geschlossen4.jpg)<br><sub>Sichtschutz geschlossen 4</sub> | ![Sichtschutz geschlossen 5](images/Durchreiche-Sichtschutz-geschlossen5.jpg)<br><sub>Sichtschutz geschlossen 5</sub> | ![Ansicht links/rechts](images/Ansicht-links-rechts1.jpg)<br><sub>Ansicht links / rechts</sub> |
 
-### Vogelhaus & MeshCore-Node
+### Vogelhaus & Meshcore-Node
 | | | |
 | :---: | :---: | :---: |
 | ![Ausladung Vogelhaus 1](images/Ausladung-Vogelhaus1.jpg)<br><sub>Ausladung Vogelhaus 1</sub> | ![Ausladung Vogelhaus 2](images/Ausladung-Vogelhaus2.jpg)<br><sub>Ausladung Vogelhaus 2</sub> | ![Ausladung Vogelhaus 3](images/Ausladung-Vogelhaus3.jpg)<br><sub>Ausladung Vogelhaus 3</sub> |
 | ![Vogelhaus Ansicht hinten](images/Vogelhaus-Ansicht-hinten.jpg)<br><sub>Vogelhaus Ansicht hinten</sub> | ![Wartungsposition 1](images/Vogelhaus-Wartungsposition1.jpg)<br><sub>Wartungsposition 1</sub> | ![Wartungsposition 2](images/Vogelhaus-Wartungsposition2.jpg)<br><sub>Wartungsposition 2</sub> |
-| ![Wartungsposition 3](images/Vogelhaus-Wartungsposition3.jpg)<br><sub>Wartungsposition 3</sub> | ![Wartungsposition 4](images/Vogelhaus-Wartungsposition4.jpg)<br><sub>Wartungsposition 4</sub> | ![Wartungsposition 6 MeshCore](images/Vogelhaus-Wartungsposition6-mit-MeshcoreNode.jpg)<br><sub>Wartungsposition mit MeshCore-Node Detail</sub> |
-| ![Durchreiche mit MeshCore](images/Durchreiche-mit-MeshcoreNode1.jpg)<br><sub>Durchreiche mit MeshCore-Node</sub> | ![Draufsicht](images/Draufsicht1.jpg)<br><sub>Draufsicht</sub> | |
+| ![Wartungsposition 3](images/Vogelhaus-Wartungsposition3.jpg)<br><sub>Wartungsposition 3</sub> | ![Wartungsposition 4](images/Vogelhaus-Wartungsposition4.jpg)<br><sub>Wartungsposition 4</sub> | ![Wartungsposition 6 Meshcore](images/Vogelhaus-Wartungsposition6-mit-MeshcoreNode.jpg)<br><sub>Wartungsposition mit Meshcore-Node Detail</sub> |
+| ![Durchreiche mit Meshcore](images/Durchreiche-mit-MeshcoreNode1.jpg)<br><sub>Durchreiche mit Meshcore-Node</sub> | ![Draufsicht](images/Draufsicht1.jpg)<br><sub>Draufsicht</sub> | |
 
 ### Montage, Bleche & Geländerklemmen
 | | | |
@@ -130,4 +131,4 @@ Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschä
 
 [← Zurück zum Hauptprojekt (familydashboard)](../README.md)
 
-`#FamilyDashboard` `#HardwareServiceDesk` `#DigitalDetox` `#MakerDIY` `#Holzhandwerk` `#CAD` `#Onshape` `#SketchUp` `#MeshCore` `#LoRa` `#BalkonDIY` `#ParentingHacks`
+`#FamilyDashboard` `#HardwareServiceDesk` `#DigitalDetox` `#MakerDIY` `#Holzhandwerk` `#CAD` `#Onshape` `#SketchUp` `#Meshcore` `#LoRa` `#BalkonDIY` `#ParentingHacks`
