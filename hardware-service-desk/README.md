@@ -5,6 +5,8 @@
 > **Hardware Service Desk (Physische Durchreiche & Verwahrung)**  
 > Zur physischen Verwahrung von Handies dient die nachbarschaftliche Balkon-Durchreiche mit integriertem Sichtschutz und einem Vogelhäuschen.
 
+[← Zurück zum Hauptprojekt (familydashboard)](../README.md)
+
 ---
 
 ## 1. Problemstellung: Das Bildschirm-Dilemma
@@ -62,7 +64,7 @@ Die Schublade ist passgenau für gängige Smartphones gefräst und lässt sich v
 
 Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschädigungsfrei auf dem vorhandenen Handlauf des Balkongeländers.
 
-* **3D-Modell (SketchUp):** [3D-Plan-Balkon-Durchreiche-v1.0.skp herunterladen](cad/3D-Plan-Balkon-Durchreiche-v1.0.skp?raw=true)
+* **3D-Modell (SketchUp):** <a href="cad/3D-Plan-Balkon-Durchreiche-v1.0.skp" download>3D-Plan-Balkon-Durchreiche-v1.0.skp herunterladen</a>
 * **Laser-Montageblech (Onshape):** [Onshape Montageblech CAD-Modell](https://cad.onshape.com/documents/048f00407a617d19f4a008ea/w/fefb94ada2602383629b39b9/e/5afe78f2b9829ff1aa034ac5?renderMode=0)
 
 <p align="center">
@@ -75,7 +77,7 @@ Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschä
 
 ## 6. Witterungsschutz & MeshCore-Knoten
 
-* **Regenabweiser:** Durch gezielte Abtropfleisten bleibt die Ladezone auch bei starkem Regenfall absolut trocken.
+* **Regenabweiser:** Durch gezielte Abtropfleisten bleibt die Lade- und Entladezone bei Regenfall trocken.
 * **MeshCore-Node:** Das Vogelhaus dient gleichzeitig als unauffälliges Gehäuse für einen autarken LoRa-/MeshCore-Repeater.
 
 <p align="center">
@@ -123,3 +125,9 @@ Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschä
 | ![Ansicht unten mit Blech 1](images/Ansicht-unten-mit-Montageblech1.jpg)<br><sub>Ansicht unten mit Montageblech 1</sub> | ![Ansicht unten mit Blech 2](images/Ansicht-unten-mit-Montageblech2.jpg)<br><sub>Ansicht unten mit Montageblech 2</sub> | ![Ansicht unten ohne Blech](images/Ansicht-unten-ohne-Montageblech.jpg)<br><sub>Ansicht unten ohne Montageblech</sub> |
 | ![Ansicht unten 1](images/Ansicht-unten1.jpg)<br><sub>Ansicht unten 1</sub> | ![Ansicht unten 2](images/Ansicht-unten2.jpg)<br><sub>Ansicht unten 2</sub> | ![Ansicht unten 3](images/Ansicht-unten3.jpg)<br><sub>Ansicht unten 3</sub> |
 | ![Durchreiche Obenansicht](images/Durchreiche-Ansicht-oben.jpg)<br><sub>Durchreiche Obenansicht</sub> | ![Regenabweiser 2](images/Regenabweiser2.jpg)<br><sub>Regenabweiser Detail 2</sub> | |
+
+---
+
+[← Zurück zum Hauptprojekt (familydashboard)](../README.md)
+
+`#FamilyDashboard` `#HardwareServiceDesk` `#DigitalDetox` `#MakerDIY` `#Holzhandwerk` `#CAD` `#Onshape` `#SketchUp` `#MeshCore` `#LoRa` `#BalkonDIY` `#ParentingHacks`
