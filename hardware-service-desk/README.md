@@ -8,9 +8,19 @@
 ---
 
 ## 1. Problemstellung: Das Bildschirm-Dilemma
-Digitale Filterregeln, Kindersicherungen und zeitbasierte Software-Sperren stossen im Familienalltag regelmässig an ihre Grenzen: Sie erzeugen endlose Diskussionen, fordern Umgehungstricks heraus und verlagern Konflikte in die reine Softwareebene.
 
-Wenn digitale Limiten nicht mehr greifen, hilft eine unmissverständliche, analoge Schnittstelle. Der **Hardware Service Desk** verlagert die Verwahrung aus dem Spannungsfeld des Kinderzimmers an eine physische Übergabestelle – transparent, verlässlich und mit klaren Ritualen.
+<table>
+  <tr>
+    <td width="55%" valign="top">
+      Digitale Filterregeln, Kindersicherungen und zeitbasierte Software-Sperren stossen im Familienalltag regelmässig an ihre Grenzen: Sie erzeugen endlose Diskussionen, fordern Umgehungstricks heraus und verlagern Konflikte in die reine Softwareebene.
+      <br><br>
+      Wenn digitale Limiten nicht mehr greifen, hilft eine unmissverständliche, analoge Schnittstelle. Der <b>Hardware Service Desk</b> verlagert die Verwahrung aus dem Spannungsfeld des Kinderzimmers an eine physische Übergabestelle – transparent, verlässlich und mit klaren Ritualen.
+    </td>
+    <td width="45%" align="center" valign="middle">
+      <img src="images/Service-Desk.jpg" alt="Service Desk" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -19,25 +29,25 @@ Wenn digitale Limiten nicht mehr greifen, hilft eine unmissverständliche, analo
 | Baugruppe | Funktion |
 | :--- | :--- |
 | **Ladeschublade** | Schubfach zur kontaktlosen Abgabe und Verwahrung des Smartphones |
-| **Magnetschlüssel** | Unsichtbare Verriegelung der Schublade von unten |
-| **Sichtschutz-Lamellen** | Schutz der Privatsphäre bei voller Luft- und Schallpermeabilität |
-| **Vogelhaus-Aufsatz** | Zivile Tarnung, Nistplatz & Futterstation mit Revisionsöffnung |
-| **Wetter- & Regenschutz**| Integrierte Abtropfkante zur Ableitung von Schlagregen |
-| **MeshCore-Integration**| Wettergeschützte Aufnahme eines solarunterstützten Funkknotens |
+| **Magnetschlüssel** | Unsichtbare Verriegelung der Schublade |
+| **Sichtschutz** | Schutz der Privatsphäre |
+| **Vogelhaus** | Tarnung & Nistplatz |
+| **Wetter- & Regenschutz** | Abtropfkante |
+| **MeshCore-Integration** | Wettergeschützte Aufnahme eines solarunterstützten Funkknotens |
 
 ---
 
 ## 3. Die Ladeschublade (Verwahr- & Schliessmechanik)
 
-<p align="center">
-  <img src="images/Service-Desk.jpg" width="48%" />
-  <img src="images/Ladeschublade-mit-Handy.jpg" width="48%" />
-</p>
-
 Die Schublade ist passgenau für gängige Smartphones gefräst und lässt sich von der Kinderseite aus einschieben. 
 
-* **Verriegelung:** Die Sperre greift mechanisch von unten. Ein Entriegeln ist nur über den zugehörigen Magnetschlüssel möglich (`images/Magnet-Schluessel1.jpg`).
-* **Zwei-Wege-System:** Über die getrennte Entnahme-Schublade (`images/Entnahme-Schublade1.jpg`) können Geräte kontrolliert entnommen werden, ohne die Gesamtanlage öffnen zu müssen.
+* **Verriegelung:** Die Sperre greift mechanisch. Ein Entriegeln ist nur über den zugehörigen Magnetschlüssel möglich.
+* **Zwei-Wege-System:** Über die getrennte Entnahme-Schublade können Geräte kontrolliert entnommen werden, ohne die Gesamtanlage öffnen zu müssen.
+
+<p align="center">
+  <img src="images/Magnet-Schluessel1.jpg" alt="Magnet-Schlüssel" width="48%" />
+  <img src="images/Entnahme-Schublade1.jpg" alt="Entnahme-Schublade" width="48%" />
+</p>
 
 ---
 
@@ -52,7 +62,7 @@ Die Schublade ist passgenau für gängige Smartphones gefräst und lässt sich v
 
 Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschädigungsfrei auf dem vorhandenen Handlauf des Balkongeländers.
 
-* **3D-Modell (SketchUp):** [3D-Plan-Balkon-Durchreiche-v1.0.skp](cad/3D-Plan-Balkon-Durchreiche-v1.0.skp)
+* **3D-Modell (SketchUp):** [3D-Plan-Balkon-Durchreiche-v1.0.skp herunterladen](cad/3D-Plan-Balkon-Durchreiche-v1.0.skp?raw=true)
 * **Laser-Montageblech (Onshape):** [Onshape Montageblech CAD-Modell](https://cad.onshape.com/documents/048f00407a617d19f4a008ea/w/fefb94ada2602383629b39b9/e/5afe78f2b9829ff1aa034ac5?renderMode=0)
 
 <p align="center">
@@ -65,8 +75,13 @@ Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschä
 
 ## 6. Witterungsschutz & MeshCore-Knoten
 
-* **Regenabweiser:** Durch gezielte Abtropfleisten bleibt die Ladezone auch bei starkem Regenfall absolut trocken (`images/Regenabweiser1.jpg`).
-* **MeshCore-Node:** Das Vogelhaus dient gleichzeitig als unauffälliges Gehäuse für einen autarken LoRa-/MeshCore-Repeater (`images/Vogelhaus-Wartungsposition5-mit-MeshcoreNode.jpg`).
+* **Regenabweiser:** Durch gezielte Abtropfleisten bleibt die Ladezone auch bei starkem Regenfall absolut trocken.
+* **MeshCore-Node:** Das Vogelhaus dient gleichzeitig als unauffälliges Gehäuse für einen autarken LoRa-/MeshCore-Repeater.
+
+<p align="center">
+  <img src="images/Regenabweiser1.jpg" alt="Regenabweiser" width="48%" />
+  <img src="images/Vogelhaus-Wartungsposition5-mit-MeshcoreNode.jpg" alt="MeshCore-Node im Vogelhaus" width="48%" />
+</p>
 
 ---
 
@@ -76,16 +91,16 @@ Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschä
 | | | |
 | :---: | :---: | :---: |
 | ![Ladeschublade geöffnet](images/Ladeschublade-geoeffnet.jpg)<br><sub>Ladeschublade geöffnet</sub> | ![Ladeschublade geschlossen](images/Ladeschublade-geschlossen.jpg)<br><sub>Ladeschublade geschlossen</sub> | ![Ladeschublade mit Handy](images/Ladeschublade-mit-Handy.jpg)<br><sub>Ladeschublade mit Handy</sub> |
-| ![Ladeschublade ohne Handy](images/Ladeschublade-ohne-Handy.jpg)<br><sub>Ladeschublade ohne Handy</sub> | ![Entnahme-Schublade](images/Entnahme-Schublade1.jpg)<br><sub>Entnahme-Schublade</sub> | ![Entnahme geschlossen](images/Entnahme-Schublade-geschlossen.jpg)<br><sub>Entnahme geschlossen</sub> |
-| ![Entnahme mit Handy](images/Entnahmeschublade-mit-Handy.jpg)<br><sub>Entnahme mit Handy</sub> | ![Beide Schubladen](images/Beide-Schubladen-Obenansicht.jpg)<br><sub>Beide Schubladen (Obenansicht)</sub> | ![Service-Desk Abgabestelle](images/Service-Desk-Abgabestelle.jpg)<br><sub>Service-Desk Abgabestelle</sub> |
+| ![Ladeschublade ohne Handy](images/Ladeschublade-ohne-Handy.jpg)<br><sub>Ladeschublade ohne Handy</sub> | ![Entnahme geschlossen](images/Entnahme-Schublade-geschlossen.jpg)<br><sub>Entnahme geschlossen</sub> | ![Entnahme mit Handy](images/Entnahmeschublade-mit-Handy.jpg)<br><sub>Entnahme mit Handy</sub> |
+| ![Beide Schubladen](images/Beide-Schubladen-Obenansicht.jpg)<br><sub>Beide Schubladen (Obenansicht)</sub> | ![Service-Desk Abgabestelle](images/Service-Desk-Abgabestelle.jpg)<br><sub>Service-Desk Abgabestelle</sub> | ![Funktionsweise Magnetschlüssel](images/Funktionsweise-Magnetschluessel.jpg)<br><sub>Funktionsweise Magnetschlüssel</sub> |
 
 ### Magnetschlüssel & Schliessfunktion
 | | | |
 | :---: | :---: | :---: |
-| ![Magnet-Schlüssel](images/Magnet-Schluessel1.jpg)<br><sub>Magnet-Schlüssel</sub> | ![Funktionsweise Magnetschlüssel](images/Funktionsweise-Magnetschluessel.jpg)<br><sub>Funktionsweise Magnetschlüssel</sub> | ![Schliessfunktion von unten](images/Schliessfunktion-von-unten.jpg)<br><sub>Schliessfunktion von unten</sub> |
-| ![MagnetClip 1](images/MagnetClip1.jpg)<br><sub>MagnetClip 1</sub> | ![MagnetClip 2](images/MagnetClip2.jpg)<br><sub>MagnetClip 2</sub> | ![Scharnierbefestigung](images/Scharnierbefestigung.jpg)<br><sub>Scharnierbefestigung</sub> |
+| ![Schliessfunktion von unten](images/Schliessfunktion-von-unten.jpg)<br><sub>Schliessfunktion von unten</sub> | ![MagnetClip 1](images/MagnetClip1.jpg)<br><sub>MagnetClip 1</sub> | ![MagnetClip 2](images/MagnetClip2.jpg)<br><sub>MagnetClip 2</sub> |
+| ![Scharnierbefestigung](images/Scharnierbefestigung.jpg)<br><sub>Scharnierbefestigung</sub> | | |
 
-### Sichtschutz & Lamellen
+### Sichtschutz mit Schliessfunktion
 | | | |
 | :---: | :---: | :---: |
 | ![Sichtschutz geöffnet 1](images/Durchreiche-Sichtschutz-geoeffnet1-Schlumpfparadies.jpg)<br><sub>Sichtschutz geöffnet (Schlumpfparadies)</sub> | ![Sichtschutz geöffnet 2](images/Durchreiche-Sichtschutz-geoeffnet2.jpg)<br><sub>Sichtschutz geöffnet</sub> | ![Sichtschutz geöffnet mit Schliessfunktion](images/Durchreiche-Sichtschutz-geoeffnet3-mit-Schliessfunktion.jpg)<br><sub>Sichtschutz geöffnet mit Verriegelung</sub> |
@@ -97,8 +112,8 @@ Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschä
 | :---: | :---: | :---: |
 | ![Ausladung Vogelhaus 1](images/Ausladung-Vogelhaus1.jpg)<br><sub>Ausladung Vogelhaus 1</sub> | ![Ausladung Vogelhaus 2](images/Ausladung-Vogelhaus2.jpg)<br><sub>Ausladung Vogelhaus 2</sub> | ![Ausladung Vogelhaus 3](images/Ausladung-Vogelhaus3.jpg)<br><sub>Ausladung Vogelhaus 3</sub> |
 | ![Vogelhaus Ansicht hinten](images/Vogelhaus-Ansicht-hinten.jpg)<br><sub>Vogelhaus Ansicht hinten</sub> | ![Wartungsposition 1](images/Vogelhaus-Wartungsposition1.jpg)<br><sub>Wartungsposition 1</sub> | ![Wartungsposition 2](images/Vogelhaus-Wartungsposition2.jpg)<br><sub>Wartungsposition 2</sub> |
-| ![Wartungsposition 3](images/Vogelhaus-Wartungsposition3.jpg)<br><sub>Wartungsposition 3</sub> | ![Wartungsposition 4](images/Vogelhaus-Wartungsposition4.jpg)<br><sub>Wartungsposition 4</sub> | ![Wartungsposition 5 MeshCore](images/Vogelhaus-Wartungsposition5-mit-MeshcoreNode.jpg)<br><sub>Wartungsposition mit MeshCore-Node</sub> |
-| ![Wartungsposition 6 MeshCore](images/Vogelhaus-Wartungsposition6-mit-MeshcoreNode.jpg)<br><sub>Wartungsposition mit MeshCore-Node Detail</sub> | ![Durchreiche mit MeshCore](images/Durchreiche-mit-MeshcoreNode1.jpg)<br><sub>Durchreiche mit MeshCore-Node</sub> | ![Draufsicht](images/Draufsicht1.jpg)<br><sub>Draufsicht</sub> |
+| ![Wartungsposition 3](images/Vogelhaus-Wartungsposition3.jpg)<br><sub>Wartungsposition 3</sub> | ![Wartungsposition 4](images/Vogelhaus-Wartungsposition4.jpg)<br><sub>Wartungsposition 4</sub> | ![Wartungsposition 6 MeshCore](images/Vogelhaus-Wartungsposition6-mit-MeshcoreNode.jpg)<br><sub>Wartungsposition mit MeshCore-Node Detail</sub> |
+| ![Durchreiche mit MeshCore](images/Durchreiche-mit-MeshcoreNode1.jpg)<br><sub>Durchreiche mit MeshCore-Node</sub> | ![Draufsicht](images/Draufsicht1.jpg)<br><sub>Draufsicht</sub> | |
 
 ### Montage, Bleche & Geländerklemmen
 | | | |
@@ -107,4 +122,4 @@ Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschä
 | ![Montageblech 3D 2](images/Montage-Blech2-3D.jpg)<br><sub>Montageblech 3D (2)</sub> | ![Montageblech 3D 3](images/Montage-Blech3-3D.jpg)<br><sub>Montageblech 3D (3)</sub> | ![Planungsansicht 3D](images/Planungsansicht2-in-3D.jpg)<br><sub>Planungsansicht 3D (2)</sub> |
 | ![Ansicht unten mit Blech 1](images/Ansicht-unten-mit-Montageblech1.jpg)<br><sub>Ansicht unten mit Montageblech 1</sub> | ![Ansicht unten mit Blech 2](images/Ansicht-unten-mit-Montageblech2.jpg)<br><sub>Ansicht unten mit Montageblech 2</sub> | ![Ansicht unten ohne Blech](images/Ansicht-unten-ohne-Montageblech.jpg)<br><sub>Ansicht unten ohne Montageblech</sub> |
 | ![Ansicht unten 1](images/Ansicht-unten1.jpg)<br><sub>Ansicht unten 1</sub> | ![Ansicht unten 2](images/Ansicht-unten2.jpg)<br><sub>Ansicht unten 2</sub> | ![Ansicht unten 3](images/Ansicht-unten3.jpg)<br><sub>Ansicht unten 3</sub> |
-| ![Durchreiche Obenansicht](images/Durchreiche-Ansicht-oben.jpg)<br><sub>Durchreiche Obenansicht</sub> | ![Regenabweiser 1](images/Regenabweiser1.jpg)<br><sub>Regenabweiser Detail 1</sub> | ![Regenabweiser 2](images/Regenabweiser2.jpg)<br><sub>Regenabweiser Detail 2</sub> |
+| ![Durchreiche Obenansicht](images/Durchreiche-Ansicht-oben.jpg)<br><sub>Durchreiche Obenansicht</sub> | ![Regenabweiser 2](images/Regenabweiser2.jpg)<br><sub>Regenabweiser Detail 2</sub> | |
