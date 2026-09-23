@@ -41,7 +41,7 @@
 
 ## 3. Die Ladeschublade (Verwahr- & Schliessmechanik)
 
-Die Schublade ist passgenau für gängige Smartphones gefräst und lässt sich von der Kinderseite aus einschieben. 
+Die beiden Schubladen sind passgenau für gängige Smartphones gefräst.
 
 * **Verriegelung:** Die Sperre greift mechanisch. Ein Entriegeln ist nur über den zugehörigen Magnetschlüssel möglich.
 * **Zwei-Wege-System:** Über die getrennte Entnahme-Schublade können Geräte kontrolliert entnommen werden, ohne die Gesamtanlage öffnen zu müssen.
@@ -64,7 +64,7 @@ Die Schublade ist passgenau für gängige Smartphones gefräst und lässt sich v
 
 Die gesamte Konstruktion ist mietwohnungskonform ausgeführt: Sie klemmt beschädigungsfrei auf dem vorhandenen Handlauf des Balkongeländers.
 
-* **3D-Modell (SketchUp):** <a href="cad/3D-Plan-Balkon-Durchreiche-v1.0.skp" download>3D-Plan-Balkon-Durchreiche-v1.0.skp herunterladen</a>
+* **3D-Modell (SketchUp):** [3D-Plan-Balkon-Durchreiche-v1.0.zip herunterladen](cad/3D-Plan-Balkon-Durchreiche-v1.0.zip)
 * **Laser-Montageblech (Onshape):** [Onshape Montageblech CAD-Modell](https://cad.onshape.com/documents/048f00407a617d19f4a008ea/w/fefb94ada2602383629b39b9/e/5afe78f2b9829ff1aa034ac5?renderMode=0)
 
 <p align="center">
